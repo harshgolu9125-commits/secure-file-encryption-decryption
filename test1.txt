@@ -1,0 +1,43 @@
+There is lot of importance of vibration and oscillation in our practical world from the shock absorbers 
+in vehicles and machineries or cantilever beams in houses, oscillatory electric and magnetic field to a 
+simple  swing  in  the  garden.  Both  oscillation  and  vibration  are  seen  in  our  daily  life  and  sometimes 
+they are beneficial and at times become detrimental. In simple words, the motion in which an object 
+executes  a  to  and  fro  motion about  an  equilibrium  position  is  called  an  oscillatory  motion  but 
+vibrations can be  in  multiple directions. In oscillation  the body undergoes  a maximum displacement 
+with fixed time period of oscillation.  Vibration can be referred to the physical change brought about 
+due  to  movement  of  the  body.  Oscillation  can  be  seen  in  the  swinging  of  a  pendulum  clock  and 
+vibration in the plucking of guitar string.
+
+
+In oscillations the objects subjected to a restoring force when displaced from its equilibrium position
+performing to and fro or motion. Such an object moves back and forth along path, repeating
+over and over a series of motions. Such a motion of constant frequency is called periodic
+motion or harmonic motion and the objects performing such  type of motion are called  harmonic
+oscillators. There are three main types of simple harmonic motion
+
+Computer graphics methods are widely  used  in both fine art and commercial art 
+applications. Artists use a  variety of computer  methods, including special-pur- 
+p&e hardware, artist's  paintbrush (such as Lumens), other paint pack- 
+ages (such as  Pixelpaint and Superpaint), specially developed software, symbolic 
+mathematits packages (such as Mathematics), CAD paclpges, desktop publish- 
+ing software, and animation packages that provide faciliHes for desigrung object 
+shapes and specifiying object motions. 
+Figure  1-23 illustrates the basic  idea  behind  a  paintbrush program  that  al- 
+lows artists to "paint"  pictures on the screen of  a video monitor. Actually, the pic- 
+ture is  usually painted electronically on a graphics tablet (digitizer) using a sty- 
+lus,  which  can simulate  different brush  strokes,  brush  widths,  and  colors.  A 
+paintbrush program was used to m t e  the characters in Fig.  1-24,  who seem to 
+be busy on a creation of  their own. 
+A paintbrush system, with a Wacom  cordlek, pressure-sensitive stylus, was 
+used to  produce the electronic painting in Fig.  1-25 that  simulates  the  brush 
+strokes of Van Gogh. The stylus transIates changing hand  presswe into variable 
+line  widths, brush  sizes,  and color gradations. Figure  1-26  shows a  watercolor 
+painting produced with this stylus and with software that allows the artist to cre- 
+ate watercolor, pastel, or oil brush effects that simulate different drying out times, 
+wetness,  and  footprint. Figure 1-27  gives  an  example  of paintbrush  methods 
+combined with scanned images. 
+Fine artists use a variety of  other computer technologies to produce images. 
+To  create  pictures such as the one shown in  Fig.  1-28, the artist uses a  combina- 
+tion  of  three-dimensional  modeling packages,  texture mapping,  drawing  pro- 
+grams, and  CAD software. In  Fig.  1-29,  we have a  painting  produced on  a pen 
+
