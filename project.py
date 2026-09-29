@@ -2,6 +2,7 @@ import os
 import json
 import time
 import base64
+import getpass
 
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
@@ -29,10 +30,9 @@ HEADER = b"SFE2"
 
 
 # ==========================================
-# FIXED PASSWORD
+# PASSWORD HANDLING
 # ==========================================
-
-MASTER_PASSWORD = "Harsh@123"
+# Passwords are entered at runtime and are not stored in source code.
 
 
 # ==========================================
@@ -150,14 +150,14 @@ def create_aes_key(password, salt):
 # ENCRYPT FILE USING AES + RSA
 # ==========================================
 
-def encrypt(filename):
+def encrypt(filename, password):
 
     # Generate random salt
     salt = os.urandom(16)
 
-    # Create password key using fixed password
+    # Create password key from the password entered at runtime
     password_key = create_aes_key(
-        MASTER_PASSWORD,
+        password,
         salt
     )
 
@@ -652,11 +652,36 @@ while True:
 
 
         # ==================================
+        # PASSWORD FOR ENCRYPTION
+        # ==================================
+
+        password = getpass.getpass(
+            "Enter a password for this file: "
+        )
+
+        if not password:
+            result(
+                "Password cannot be empty!"
+            )
+            continue
+
+        confirm_password = getpass.getpass(
+            "Confirm password: "
+        )
+
+        if password != confirm_password:
+            result(
+                "Passwords do not match!"
+            )
+            continue
+
+        # ==================================
         # AES + RSA ENCRYPTION
         # ==================================
 
         encrypt(
-            filename
+            filename,
+            password
         )
 
 
